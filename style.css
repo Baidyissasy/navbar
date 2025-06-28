@@ -1,24 +1,38 @@
-
-div{
+#principal{
     height: 100vh;
-    background-image: url(35591796-plage-de-l-ile-paradisiaque-paysage-tropical-de-paysages-d-ete-palmiers-de-ciel-de-sable-de-mer-destination-de-vacances-de-voyage-de-luxe-paysage-de-plage-exotique-nature-incroyable-detente-liberte-natur.jpg);
-    color: white
+    background-color: rgba(83, 81, 81, 0.767);
 }
 nav{
     display: flex;
     justify-content: space-between;
+    color: white;
 }
 ul{
     display: flex;
     list-style: none;
 }
 li{
-    margin: 15px;
+    margin: 7px;
+}
+#secondaire{
+    width: 250px;
+    margin: 10px;
+    border: 1.5px solid white;
+    padding: 5px;
+    border-radius: 15px;
+}
+img{
+    width: 100%;
+    border-radius: 15px;
+}
+button{
+    color: white;
+    background-color: rgb(80, 79, 79);
+    border-radius: 5px;
 }
 section{
-    height: 75vh;
+    height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
 }
