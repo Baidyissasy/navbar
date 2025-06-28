@@ -1,0 +1,24 @@
+
+div{
+    height: 100vh;
+    background-image: url(35591796-plage-de-l-ile-paradisiaque-paysage-tropical-de-paysages-d-ete-palmiers-de-ciel-de-sable-de-mer-destination-de-vacances-de-voyage-de-luxe-paysage-de-plage-exotique-nature-incroyable-detente-liberte-natur.jpg);
+    color: white
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+li{
+    margin: 15px;
+}
+section{
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
